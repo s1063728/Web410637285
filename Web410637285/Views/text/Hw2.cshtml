@@ -1,0 +1,31 @@
+﻿
+@{
+    ViewBag.Title = "Hw2";
+}
+
+<h2>Hw2</h2>
+
+<p>Name :  @Html.TextBox("name")</p>
+<p>Acount :  @Html.TextBox("account")</p>
+<p>Password :  @Html.TextBox("password")</p>
+<p>
+    Gender :
+    @Html.RadioButton("gender", "A")Girl
+    @Html.RadioButton("gender", "B")Boy
+</p>
+<p>
+    Interest :
+    @Html.CheckBox("eat", "E")Eat
+    @Html.CheckBox("read", "R")Read English
+    @Html.CheckBox("sleep", "S")Sleep
+    @Html.CheckBox("fat", "F")Fat
+</p>
+<p>
+    Intro :
+    @Html.TextArea("about")
+</p>
+<i><u>by 410637285 in 21.05.06</u></i>
+<br>
+<br />
+<a href="https://www.pu.edu.tw/">PÜ Web</a>
+<br>
